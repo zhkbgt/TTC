@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TTC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TTC.'
+  s.summary          = 'zz TTC.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,9 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zhkbgt/TTC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+ 
+  s.resources = "TTC/Assets/*"
+  s.vendored_frameworks = 'Frameworks/*.framework'
+  s.vendored_libraries = 'Libs/*.a'
 
-  s.source_files = 'TTC/Classes/**/*'
+  s.libraries = 'icucore', 'c++', 'bsm', 'z', 'bz2', 'resolv'
+  s.frameworks = 'UIKit', 'MapKit', 'WebKit'
+
+#  s.source_files = 'TTC/Classes/**/*'
   
   # s.resource_bundles = {
   #   'TTC' => ['TTC/Assets/*.png']

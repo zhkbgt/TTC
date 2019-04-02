@@ -1,0 +1,6 @@
+framework module TTC {
+  umbrella header "TTC.h"
+
+  export *
+  module * { export * }
+}
