@@ -16,9 +16,6 @@ FOUNDATION_EXPORT const unsigned char TTCVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TTC/PublicHeader.h>
 
-#import <TTC/lza01stmk_nyxjrObj.h>
-#import <TTC/lza01stmk_nyxjrVC.h>
-
 #import <TTC/APIWindowContainer.h>
 #import <TTC/APIWidgetContainer.h>
 #import <TTC/APIManager.h>

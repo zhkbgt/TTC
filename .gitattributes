@@ -1,1 +1,1 @@
-Libs/libavcodec.a filter=lfs diff=lfs merge=lfs -text
+Frameworks/TTC.framework/TTC filter=lfs diff=lfs merge=lfs -text
